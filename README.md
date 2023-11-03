@@ -6,7 +6,7 @@ The entire parser is one large object-oriented recursive descent parser. You are
 
 Basic arithmetic operators currently supported:
 - addition, subtraction, division, multiplication
-- 
+ 
 Logarithmic and trigonometric operators/functions currently supported:
 - square root
 - absolute value
@@ -17,8 +17,8 @@ Logarithmic and trigonometric operators/functions currently supported:
 
 ## Below is an example of the program parsing and evaluating a simple addition expression
 Notice the JSON structure which is a decomposed representation of the terms into logical units.
-![addition operation](https://github.com/MamounKolovos/MathParser/assets/121258835/fa1284d1-5176-4a64-bc9b-2348729e1918)
+![addition operation](https://github.com/MamounKolovos/MathParser/assets/121258835/eac55e23-047a-414d-ac92-5827fb392a36)
 
 ## Below is an example of the parser implementing order of operations and additional expression terms
 Notice that the program understands parentheses enforce order.
-![more complex operation](https://github.com/MamounKolovos/MathParser/assets/121258835/e1c9a062-cea9-44ca-87e6-189a797baba9)
+![more complex operation](https://github.com/MamounKolovos/MathParser/assets/121258835/206a05f9-61ba-424f-8949-33d7014c2fbb)
